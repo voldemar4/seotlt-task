@@ -1,0 +1,6 @@
+.textarea {
+    padding: 1rem;
+    border: 1px solid black;
+    resize: none;
+    min-height: 120px;
+}

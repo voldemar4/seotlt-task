@@ -1,0 +1,29 @@
+.card {
+    flex-basis: 100%;
+    padding: 2em;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1em;
+}
+
+.title {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.content {
+    font-size: 1.2em;
+}
+
+.buttons {
+    display: flex;
+    gap: 0.8em;
+}
+
+@media (max-width: 550px) {
+    .card {
+        padding: 1em;
+    }
+}
